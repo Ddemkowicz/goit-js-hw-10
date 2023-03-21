@@ -12,7 +12,7 @@ input.addEventListener('input', debounce(fetchCountries, DEBOUNCE_DELAY));
 
 function testDebounce() {
   log(input.value);
-  Notiflix.Notify.failure('Cogito ergo sum');
+  Notiflix.Notify.failure('ROBIE TEST');
 }
 const deboTest = debounce(testDebounce, DEBOUNCE_DELAY);
 const btn = document.querySelector('button');
