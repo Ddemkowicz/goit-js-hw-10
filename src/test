@@ -1,0 +1,38 @@
+// const fetchCountries = fetch('https://restcountries.com/v3.1/name/poland');
+// fetchCountries
+//   .then(response => {
+//     log('response: ', response);
+//     const countryData = response.json();
+//     log('countryData: ', countryData);
+//     return countryData;
+//   })
+//   .then(name => {
+//     log('name: ', name);
+//   });
+// const aaa = fetch(`https://restcountries.com/v3.1/all`);
+// log(aaa);
+
+// aaa
+//   .then(response => {
+//     const aaaData = response.json();
+//     log(aaaData);
+//     return aaaData;
+//   })
+//   .then(dataAAA => {
+//     log(dataAAA[123]);
+//   });
+
+// function renderCountryList(names) {
+//   const markup = names
+//     .map(name => {
+//       return `<li>
+//           <p><b>Name</b>: ${name.name.official}</p>
+//           <p><b>Capital</b>: ${name.capital}</p>
+//           <p><b>Population</b>: ${name.population}</p>
+//           <p><b>Flag</b>: ${name.flags}</p>
+//           <p><b>Languages</b>: ${name.languages}</p>
+//         </li>`;
+//     })
+//     .join('');
+//   countryList.innerHTML = markup;
+// }
